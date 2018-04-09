@@ -1,6 +1,8 @@
-# sapper-template
+# sapper-template with Typescript support
 
-The default [Sapper](https://github.com/sveltejs/sapper) template. To clone it and get started:
+This is a fork of the default [Sapper](https://github.com/sveltejs/sapper) template with added support for Typescript in server routes only.
+
+To clone it and get started:
 
 ```bash
 npx degit sveltejs/sapper-template my-app

@@ -12,6 +12,7 @@
     "test": "run-p --race dev cy:run"
   },
   "dependencies": {
+    "@types/express": "^4.11.1",
     "compression": "^1.7.1",
     "npm-run-all": "^4.1.2",
     "polka": "^0.3.4",
@@ -20,5 +21,10 @@
     "svelte": "^1.57.3",
     "svelte-loader": "^2.3.3",
     "webpack": "^4.1.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.8.1"
   }
 }

@@ -1,4 +1,6 @@
-import posts from './blog/_posts.js';
+import { Request, Response } from 'express';
+
+import posts from './blog/_posts';
 
 const contents = JSON.stringify(posts.map(post => {
 	return {
@@ -7,7 +9,7 @@ const contents = JSON.stringify(posts.map(post => {
 	};
 }));
 
-export function get(req, res) {
+export function get(req: Request, res: Response) {
 	res.writeHead(200, {
 		'Content-Type': 'application/json'
 	});
